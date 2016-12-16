@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "postinstall": "typings install react && typings install",
+    "buildProduction": "webpack --config webpack.config.production.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tslint": "^3.15.1"
+  },
+  "dependencies": {
+    "react-native": "^0.34.1",
+    "source-map-loader": "^0.1.5",
+    "css": "^2.2.1",
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.10.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "sass-loader": "^4.0.2",
+    "ts-loader": "^0.9.0",
+    "typescript": "^2.1.4",
+    "typings": "^2.0.0",
+    "webpack": "^1.13.2"
+  }
+}
