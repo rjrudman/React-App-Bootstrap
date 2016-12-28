@@ -1,6 +1,5 @@
 {
   "scripts": {
-    "postinstall": "typings install react && typings install",
     "buildProduction": "webpack --config webpack.config.production.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -8,6 +7,8 @@
     "tslint": "^3.15.1"
   },
   "dependencies": {
+    "@types/react": "^0.14.55",
+    "@types/react-dom": "^0.14.19",
     "source-map-loader": "^0.1.5",
     "css": "^2.2.1",
     "css-loader": "^0.25.0",
